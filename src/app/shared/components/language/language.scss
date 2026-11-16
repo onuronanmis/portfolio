@@ -15,10 +15,11 @@
   font-size: 18px;
   line-height: 120%;
   cursor: pointer;
-  transition: background-color $transition-default;
+transition: background-color $transition-default, border-color $transition-default;
 
   &:hover {
-    background-color: rgba($color-primary-green, 0.2);
+    background-color: rgba($color-primary-purple, 0.9);
+    border-color: $color-primary-purple;
   }
 }
 
@@ -28,5 +29,6 @@
 
   &:hover {
     background-color: $color-primary-green;
+    border-color: $color-primary-green;
   }
 }
