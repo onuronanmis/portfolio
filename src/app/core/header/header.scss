@@ -1,0 +1,65 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: $color-background;
+}
+
+.header-content {
+  @include content-container;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+.header-logo {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.logo-purple {
+  color: $color-primary-purple;
+}
+
+.logo-green {
+  color: $color-primary-green;
+}
+
+.header-nav {
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 24px;
+  transition: color $transition-default;
+
+  &:hover {
+    color: $color-primary-green;
+  }
+}
+
+.burger-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@include media-max($breakpoint-tablet) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger-button {
+    display: block;
+    margin-left: auto;
+  }
+}

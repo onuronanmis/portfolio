@@ -1,1 +1,7 @@
-{}
+{
+  "header": {
+    "aboutMe": "Hakkımda",
+    "skills": "Yetenekler",
+    "portfolio": "Portfolyo"
+  }
+}

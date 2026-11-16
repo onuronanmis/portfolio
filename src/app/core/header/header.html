@@ -1,1 +1,16 @@
-<p>header works!</p>
+
+<header class="header-wrapper">
+    <div class="header-content">
+        <a routerLink="/" class="header-logo">O<span class="logo-purple">n</span>u<span class="logo-green">r</span></a>
+
+        <nav class="header-nav">
+            <a routerLink="/" fragment="about-section" class="nav-link">{{'header.aboutMe' | translate}}</a>
+            <a routerLink="/" fragment="skills-section" class="nav-link">{{ 'header.skills'| translate }}</a>
+            <a routerLink="/" fragment="portfolio-section" class="nav-link">{{ 'header.portfolio' | translate }}</a>
+        </nav>
+
+        <button type="button" class="burger-button">
+            <img src="/icons/button/burger-menu.png" alt="Menu">
+        </button>
+    </div>
+</header>
