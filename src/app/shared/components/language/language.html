@@ -1,0 +1,12 @@
+<div class="language-switch">
+  @for (languageCode of languageCodes; track languageCode) {
+    <button
+      type="button"
+      class="language-button"
+      [class.language-active]="activeLanguage() === languageCode"
+      (click)="changeLanguage(languageCode)">
+      {{ languageCode.toUpperCase() }}
+    </button>
+  }
+</div>
+

@@ -1,0 +1,32 @@
+@use 'variables' as *;
+
+.language-switch {
+  display: flex;
+  gap: 10px;
+}
+
+.language-button {
+  padding: 5px 8px;
+  border: 1px solid $color-primary-green;
+  border-radius: 10px;
+  background: none;
+  color: $color-text-white;
+  font-family: $font-main;
+  font-size: 18px;
+  line-height: 120%;
+  cursor: pointer;
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: rgba($color-primary-green, 0.2);
+  }
+}
+
+.language-active {
+  background-color: $color-primary-green;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $color-primary-green;
+  }
+}
