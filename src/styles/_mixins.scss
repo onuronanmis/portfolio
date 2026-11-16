@@ -1,0 +1,32 @@
+@use 'variables' as *;
+
+@mixin media-max($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin media-min($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin content-container {
+  width: 100%;
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: 0 $content-padding-desktop;
+  box-sizing: border-box;
+
+  @include media-max($breakpoint-tablet) {
+    padding: 0 $content-padding-mobile;
+  }
+}
