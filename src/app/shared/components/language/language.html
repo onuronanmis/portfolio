@@ -1,5 +1,5 @@
-<div class="language-switch">
-  @for (languageCode of languageCodes; track languageCode) {
+<div class="language-switch" [class.language-text]="textMode()">
+  @for (languageCode of languageCodes; track languageCode; let isLast = $last) {
     <button
       type="button"
       class="language-button"
@@ -7,6 +7,8 @@
       (click)="changeLanguage(languageCode)">
       {{ languageCode.toUpperCase() }}
     </button>
+    @if (textMode() && !isLast) {
+      <span class="language-divider">/</span>
+    }
   }
 </div>
-

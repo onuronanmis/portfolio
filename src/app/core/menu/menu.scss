@@ -1,0 +1,32 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.menu-overlay {
+  @include flex-center(column);
+  gap: 24px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: calc(100dvh - 100%);
+  background-color: rgba(63, 69, 82, 0.95);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 400ms ease-in-out, visibility 400ms;
+}
+
+.menu-open {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.menu-link {
+  font-size: 24px;
+  padding: 8px 24px;
+  border-radius: 10px;
+  transition: background-color $transition-default;
+
+  &:hover {
+    background-color: rgba($color-primary-green, 0.25);
+  }
+}

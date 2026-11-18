@@ -54,7 +54,8 @@
 }
 
 @include media-max($breakpoint-tablet) {
-  .header-nav {
+  .header-nav,
+  .header-language {
     display: none;
   }
 

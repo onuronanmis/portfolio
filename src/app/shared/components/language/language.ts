@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -11,6 +11,7 @@ export class Language {
   private translateService = inject(TranslateService);
   protected readonly languageCodes = ['en', 'de', 'tr'];
   protected activeLanguage = this.translateService.currentLang;
+  textMode = input(false);
 
   constructor() {
     this.restoreLanguage();

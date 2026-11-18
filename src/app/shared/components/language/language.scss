@@ -15,7 +15,9 @@
   font-size: 18px;
   line-height: 120%;
   cursor: pointer;
-transition: background-color $transition-default, border-color $transition-default;
+  transition:
+    background-color $transition-default,
+    border-color $transition-default;
 
   &:hover {
     background-color: rgba($color-primary-purple, 0.9);
@@ -30,5 +32,30 @@ transition: background-color $transition-default, border-color $transition-defau
   &:hover {
     background-color: $color-primary-green;
     border-color: $color-primary-green;
+  }
+}
+
+
+.language-text {
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
+
+  .language-button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 24px;
+
+    &:hover {
+      color: $color-primary-purple;
+      background: none;
+    }
+  }
+
+  .language-active,
+  .language-active:hover {
+    color: $color-primary-green;
+    background: none;
   }
 }

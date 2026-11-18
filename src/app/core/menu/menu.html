@@ -1,1 +1,8 @@
-<p>menu works!</p>
+<nav class="menu-overlay" [class.menu-open]="menuOpen()">
+  <a routerLink="/" fragment="about-section" class="menu-link" (click)="closeMenu()">{{ 'header.aboutMe' | translate }}</a>
+  <a routerLink="/" fragment="skills-section" class="menu-link" (click)="closeMenu()">{{ 'header.skills' | translate }}</a>
+  <a routerLink="/" fragment="portfolio-section" class="menu-link" (click)="closeMenu()">{{ 'header.portfolio' | translate }}</a>
+  <a routerLink="/" fragment="contact-section" class="menu-link" (click)="closeMenu()">{{ 'header.contact' | translate }}</a>
+  <app-language [textMode]="true"></app-language>
+</nav>
+

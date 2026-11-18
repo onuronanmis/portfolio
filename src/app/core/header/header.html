@@ -8,9 +8,10 @@
             <a routerLink="/" fragment="skills-section" class="nav-link">{{ 'header.skills'| translate }}</a>
             <a routerLink="/" fragment="portfolio-section" class="nav-link">{{ 'header.portfolio' | translate }}</a>
         </nav>
-        <app-language></app-language>
-        <button type="button" class="burger-button">
-            <img src="/icons/button/burger-menu.png" alt="Menu">
+        <app-language class="header-language"></app-language>
+        <button type="button" class="burger-button" (click)="toggleMenu()" aria-label="Menu">
+            <img [src]="menuOpen() ? '/icons/button/close-menu.png' : '/icons/button/burger-menu.png'" alt="">
         </button>
     </div>
+    <app-menu [menuOpen]="menuOpen()" (menuClosed)="closeMenu()"></app-menu>
 </header>
