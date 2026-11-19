@@ -1,0 +1,5 @@
+@use 'variables' as *;
+
+.gradient-area {
+  background: linear-gradient(180deg, $color-background-blue 0%, $color-background 100%);
+}
