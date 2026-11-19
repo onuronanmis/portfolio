@@ -1,1 +1,28 @@
-<p>portfolio works!</p>
+<section class="portfolio-section" id="portfolio-section">
+  <div class="portfolio-content">
+    <div class="portfolio-title">
+      <span class="title-line"></span>
+      <h2 class="section-heading">{{ 'portfolio.title' | translate }}</h2>
+    </div>
+    <p class="portfolio-intro">{{ 'portfolio.intro' | translate }}</p>
+
+    <div class="project-grid">
+      @for (projectItem of projectItems; track projectItem.title) {
+        <article class="project-card">
+          <img [src]="projectItem.image" [alt]="projectItem.title" class="project-image">
+
+          <div class="project-buttons">
+            <a [href]="projectItem.githubUrl" target="_blank" rel="noopener" class="github-button">Github</a>
+            <a [href]="projectItem.liveUrl" target="_blank" rel="noopener" class="live-button">{{ 'portfolio.liveTest' | translate }}</a>
+          </div>
+
+          <div class="project-info">
+            <h3 class="project-title">{{ projectItem.title }}</h3>
+            <p class="project-description">{{ projectItem.descriptionKey | translate }}</p>
+            <p class="project-technologies">{{ projectItem.technologies.join(' | ') }}</p>
+          </div>
+        </article>
+      }
+    </div>
+  </div>
+</section>

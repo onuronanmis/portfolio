@@ -28,5 +28,16 @@
     "questionEnd": " mi arıyorsun?",
     "questionText": "Reveal enthusiasm for learning new technologies and frameworks.",
     "button": "İletişime geç"
+  },
+  "portfolio": {
+    "title": "Portfolyo",
+    "intro": "Burada çalışmalarımdan bir seçki bulabilirsin – becerilerimi iş başında görmek için projelerle etkileşime geç.",
+    "liveTest": "Canlı test",
+    "projects": {
+      "polloLoco": "Nesne yönelimli programlamaya dayalı zıpla, koş ve fırlat oyunu. Çılgın tavuğa karşı savaşmak için Pepe'nin madeni para ve tabasco sosu bulmasına yardım et.",
+      "join": "Kanban sisteminden ilham alan görev yöneticisi. Görevleri sürükle-bırak ile oluştur ve düzenle, kullanıcı ve kategori ata.",
+      "simpleCrm": "CRUD işlevleriyle çalışan çok basit bir müşteri ilişkileri yönetim sistemi.",
+      "pokedex": "PokéAPI tabanlı, Pokémon bilgilerini sunan ve kataloglayan basit bir kütüphane."
+    }
   }
 }

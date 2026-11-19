@@ -28,5 +28,16 @@
     "questionEnd": "?",
     "questionText": "Reveal enthusiasm for learning new technologies and frameworks.",
     "button": "Kontakt aufnehmen"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "Hier findest du eine Auswahl meiner Arbeiten – interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+    "liveTest": "Live-Test",
+    "projects": {
+      "polloLoco": "Jump-and-Run-Spiel auf Basis objektorientierter Programmierung. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
+      "join": "Aufgabenmanager nach dem Kanban-Prinzip. Erstelle und organisiere Aufgaben per Drag and Drop, weise Personen und Kategorien zu.",
+      "simpleCrm": "Ein einfaches Customer-Relationship-Management-System mit CRUD-Funktionen.",
+      "pokedex": "Eine einfache Bibliothek auf Basis der PokéAPI, die Pokémon-Informationen bereitstellt und katalogisiert."
+    }
   }
 }
