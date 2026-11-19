@@ -66,5 +66,9 @@
     "privacyError": "Lütfen gizlilik politikasını kabul et",
     "button": "Mesaj gönder :)",
     "success": "Teşekkürler! Mesajın gönderildi."
+  },
+  "footer": {
+    "legalNotice": "Yasal Bildirim",
+    "copyright": "© Onur Onanmis {{year}}"
   }
 }

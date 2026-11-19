@@ -1,0 +1,74 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.footer-wrapper {
+  height: 290px;
+  border-top: 2px solid $color-primary-green;
+  background-color: $color-background;
+}
+
+.footer-content {
+  @include content-container;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.logo-purple {
+  color: $color-primary-purple;
+}
+
+.logo-green {
+  color: $color-primary-green;
+}
+
+.legal-link {
+  position: relative;
+  padding-bottom: 4px;
+  font-size: 16px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: $color-primary-green;
+    transition: width 300ms ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.footer-copyright {
+  font-size: 24px;
+}
+
+@include media-max($breakpoint-tablet) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .footer-brand {
+    align-items: center;
+  }
+}

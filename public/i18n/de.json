@@ -66,5 +66,9 @@
     "privacyError": "Bitte akzeptiere die Datenschutzerklärung",
     "button": "Nachricht senden :)",
     "success": "Danke! Deine Nachricht wurde gesendet."
+  },
+  "footer": {
+    "legalNotice": "Impressum",
+    "copyright": "© Onur Onanmis {{year}}"
   }
 }
