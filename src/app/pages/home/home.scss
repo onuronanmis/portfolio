@@ -1,5 +1,37 @@
 @use 'variables' as *;
 
 .gradient-area {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(180deg, $color-background-blue 0%, $color-background 100%);
+
+  > :not(.background-shadow) {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+}
+
+.background-shadow {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.shadow-skills {
+  top: 12%;
+  right: 0;
+  width: max(434px, 30vw);
+}
+
+.shadow-portfolio {
+  top: 42%;
+  left: 0;
+  width: max(312px, 22vw);
+}
+
+.shadow-contact {
+  top: 68%;
+  right: 0;
+  width: max(610px, 42vw);
 }
