@@ -1,1 +1,25 @@
-<p>skills works!</p>
+<section class="skills-section" id="skills-section">
+  <div class="skills-content">
+    <div class="skills-grid">
+      @for (skillItem of skillItems; track skillItem.name) {
+        <div class="skill-item">
+          <img [src]="skillItem.icon" [alt]="skillItem.name" class="skill-icon">
+          <span class="skill-name">{{ skillItem.name }}</span>
+        </div>
+      }
+    </div>
+
+    <div class="skills-text">
+      <div class="skills-title">
+        <h2 class="section-heading">{{ 'skills.title' | translate }}</h2>
+        <span class="title-line"></span>
+      </div>
+      <p class="skills-description">{{ 'skills.description' | translate }}</p>
+      <h3 class="skills-question">
+        {{ 'skills.questionStart' | translate }}<span class="question-highlight">{{ 'skills.questionHighlight' | translate }}</span>{{ 'skills.questionEnd' | translate }}
+      </h3>
+      <p class="skills-description">{{ 'skills.questionText' | translate }}</p>
+      <a routerLink="/" fragment="contact-section" class="primary-button">{{ 'skills.button' | translate }}</a>
+    </div>
+  </div>
+</section>

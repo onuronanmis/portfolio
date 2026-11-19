@@ -1,9 +1,14 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TranslatePipe } from '@ngx-translate/core';
+import { SKILL_ITEMS } from '../../data/skills';
 
 @Component({
-  imports: [],
+  imports: [RouterLink, TranslatePipe],
   selector: 'app-skills',
   styleUrl: './skills.scss',
   templateUrl: './skills.html',
 })
-export class Skills {}
+export class Skills {
+  protected readonly skillItems = SKILL_ITEMS;
+}

@@ -45,6 +45,11 @@
   flex-shrink: 0;
   width: 48px;
   height: 48px;
+  transition: transform $transition-default;
+
+  &:hover {
+    transform: scale(1.15);
+  }
 }
 
 .about-image {
