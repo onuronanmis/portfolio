@@ -41,7 +41,7 @@
 }
 
 .contact-subtitle {
-  font-size: 32px;
+  font-size: clamp(24px, 2.2vw, 32px);
   font-weight: 700;
 }
 
@@ -195,5 +195,26 @@
 
   &:hover {
     transform: scale(1.15);
+  }
+}
+
+@include media-max($breakpoint-desktop) {
+  .contact-body {
+    flex-direction: column;
+  }
+
+  .contact-text,
+  .contact-form {
+    max-width: none;
+  }
+}
+
+@include media-max($breakpoint-tablet) {
+  .contact-section {
+    padding-bottom: 140px;
+  }
+
+  .scroll-top {
+    right: $content-padding-mobile;
   }
 }

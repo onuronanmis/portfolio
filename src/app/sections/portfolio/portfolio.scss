@@ -149,3 +149,29 @@
 .project-technologies {
   color: $color-primary-green;
 }
+
+@media (hover: none) {
+  .project-card {
+    flex-direction: column;
+    justify-content: flex-start;
+    aspect-ratio: auto;
+    padding-top: 72px;
+  }
+
+  .project-image {
+    width: 80%;
+  }
+
+  .project-buttons {
+    top: 16px;
+    opacity: 1;
+  }
+
+  .project-info {
+    position: static;
+    min-height: auto;
+    max-height: none;
+    margin-top: 16px;
+    transform: none;
+  }
+}
