@@ -11,5 +11,13 @@
     "job": "FULLSTACK DEVELOPER",
     "button": "Let's talk!",
     "scroll": "Scroll down"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "intro": "Hey there, I'm Onur! Write some information about yourself that is IT related. Why are you passionate about coding? What is your source of inspiration for improving your programming skills?",
+    "connect": "Let's connect and create something amazing together!",
+    "location": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
+    "mindset": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
+    "problemSolving": "A brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include some keywords like: analytical thinking, creativity, persistence and collaboration."
   }
 }

@@ -1,1 +1,24 @@
-<p>about works!</p>
+<section class="about-section" id="about-section">
+  <div class="about-content">
+    <div class="about-text">
+      <h2 class="section-heading">{{ 'aboutMe.title' | translate }}</h2>
+      <p class="about-intro">{{ 'aboutMe.intro' | translate }}</p>
+      <p class="about-intro">{{ 'aboutMe.connect' | translate }}</p>
+      <ul class="about-points">
+        @for (aboutPoint of aboutPoints; track aboutPoint.key) {
+          <li class="about-point">
+            <img [src]="aboutPoint.icon" alt="" class="point-icon">
+            <p>{{ aboutPoint.key | translate }}</p>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="about-image">
+      <img src="/icons/bg-lines-shadow/29. photo shadows.png" class="photo-shadow" alt="">
+      <img src="/images/profile-photo.webp" class="profile-photo" alt="Onur Onanmis">
+    </div>
+  </div>
+  <svg class="about-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 120V96C480 112 1080 84 1440 0V120Z"></path>
+  </svg>
+</section>
