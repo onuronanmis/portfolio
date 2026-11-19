@@ -4,5 +4,12 @@
     "skills": "Yetenekler",
     "portfolio": "Portfolyo",
     "contact": "İletişim"
+  },
+  "hero": {
+    "intro": "Ben",
+    "name": "Onur Onanmis",
+    "job": "FULLSTACK GELİŞTİRİCİ",
+    "button": "Hadi konuşalım!",
+    "scroll": "Aşağı kaydır"
   }
 }

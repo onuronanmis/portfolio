@@ -1,0 +1,84 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.hero-section {
+  position: relative;
+  min-height: calc(100dvh - #{$header-height});
+  overflow: hidden;
+}
+
+.shadow-purple,
+.shadow-turquoise {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.shadow-purple {
+  left: 0;
+}
+
+.shadow-turquoise {
+  right: 0;
+}
+
+.hero-content {
+  @include content-container;
+  @include flex-center(column);
+  position: relative;
+  gap: 48px;
+  min-height: inherit;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.title-intro {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 90px;
+  line-height: 120%;
+}
+
+.hero-name {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+.hero-job {
+  font-size: 64px;
+  line-height: 120%;
+  color: $color-primary-purple;
+}
+
+.scroll-down {
+  position: absolute;
+  right: $content-padding-desktop;
+  bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  writing-mode: vertical-rl;
+  font-size: 18px;
+}
+
+.hero-socials {
+  position: absolute;
+  left: 0;
+  bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.green-line {
+  width: 76px;
+  height: 4px;
+  background-color: $color-primary-green;
+}

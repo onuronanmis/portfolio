@@ -4,5 +4,12 @@
     "skills": "Skills",
     "portfolio": "Portfolio",
     "contact": "Contact"
+  },
+  "hero": {
+    "intro": "I am",
+    "name": "Onur Onanmis",
+    "job": "FULLSTACK DEVELOPER",
+    "button": "Let's talk!",
+    "scroll": "Scroll down"
   }
 }

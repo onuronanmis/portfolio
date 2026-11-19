@@ -1,1 +1,26 @@
-<p>hero works!</p>
+<section class="hero-section">
+  <img src="/icons/bg-lines-shadow/hero-shadow-purple.png" class="shadow-purple" alt="">
+  <img src="/icons/bg-lines-shadow/hero-shadow-turquoise.png" class="shadow-turquoise" alt="">
+
+  <div class="hero-content">
+    <div class="hero-title">
+      <span class="title-intro">{{ 'hero.intro' | translate }}</span>
+      <div class="title-text">
+        <h1 class="hero-name">{{ 'hero.name' | translate }}</h1>
+        <p class="hero-job">{{ 'hero.job' | translate }}</p>
+      </div>
+    </div>
+
+    <a routerLink="/" fragment="contact-section" class="primary-button">{{ 'hero.button' | translate }}</a>
+
+    <a routerLink="/" fragment="about-section" class="scroll-down">
+      {{ 'hero.scroll' | translate }}
+      <img src="/icons/button/arrow-down-line.png" alt="">
+    </a>
+  </div>
+
+  <div class="hero-socials">
+    <span class="green-line"></span>
+    <app-socials></app-socials>
+  </div>
+</section>
