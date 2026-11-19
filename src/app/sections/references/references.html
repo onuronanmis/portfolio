@@ -1,1 +1,41 @@
-<p>references works!</p>
+<section class="references-section">
+  <div class="references-content">
+    <div class="reference-slide">
+      <div class="quote-card">
+        <span class="quote-mark" aria-hidden="true"></span>
+        <p class="quote-text">{{ activeReference().quoteKey | translate }}</p>
+        <div class="quote-author">
+          <span class="author-line"></span>
+          <span class="author-name">{{ activeReference().name }} - {{ activeReference().roleKey | translate }}</span>
+        </div>
+      </div>
+
+      <div class="reference-avatar">
+        @if (activeReference().image) {
+          <img [src]="activeReference().image" [alt]="activeReference().name" class="avatar-image">
+        } @else {
+          <div class="avatar-circle"></div>
+        }
+        <span class="avatar-line"></span>
+      </div>
+    </div>
+
+    <div class="slider-controls">
+      <button type="button" class="slider-arrow" (click)="showPrevious()" aria-label="Previous">
+        <img src="/icons/button/arrow-left.png" alt="">
+      </button>
+      @for (referenceItem of referenceItems; track $index) {
+        <button
+          type="button"
+          class="slider-dot"
+          [class.dot-active]="$index === activeIndex()"
+          (click)="showReference($index)"
+          [attr.aria-label]="referenceItem.name">
+        </button>
+      }
+      <button type="button" class="slider-arrow" (click)="showNext()" aria-label="Next">
+        <img src="/icons/button/arrow-right.png" alt="">
+      </button>
+    </div>
+  </div>
+</section>

@@ -39,5 +39,13 @@
       "simpleCrm": "Ein einfaches Customer-Relationship-Management-System mit CRUD-Funktionen.",
       "pokedex": "Eine einfache Bibliothek auf Basis der PokéAPI, die Pokémon-Informationen bereitstellt und katalogisiert."
     }
+  },
+  "references": {
+    "role": "Teampartner",
+    "quotes": {
+      "first": "Placeholder: quote from a team partner about working together on a project.",
+      "second": "Placeholder: quote from a team partner about working together on a project.",
+      "third": "Placeholder: quote from a team partner about working together on a project."
+    }
   }
 }
