@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+.primary-button {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: $color-primary-green;
+  color: $color-text-white;
+  font-family: $font-main;
+  font-size: 23px;
+  line-height: 120%;
+  cursor: pointer;
+  transition: background-color $transition-default, transform $transition-default;
+
+  &:hover {
+    background-color: $color-primary-purple;
+    transform: scale(1.05);
+  }
+
+  &:disabled {
+    background-color: $color-disabled-gray;
+    cursor: not-allowed;
+    transform: none;
+  }
+}
