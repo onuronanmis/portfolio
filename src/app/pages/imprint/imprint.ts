@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  imports: [],
+  imports: [RouterLink, TranslatePipe],
   selector: 'app-imprint',
   styleUrl: './imprint.scss',
   templateUrl: './imprint.html',
 })
-export class Imprint {}
+export class Imprint {
+  protected readonly sectionKeys = ['provider', 'contact', 'responsible', 'links'];
+}

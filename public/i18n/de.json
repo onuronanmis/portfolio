@@ -70,5 +70,71 @@
   "footer": {
     "legalNotice": "Impressum",
     "copyright": "© Onur Onanmis {{year}}"
+  },
+  "legalNotice": {
+    "title": "Impressum",
+    "sections": {
+      "provider": {
+        "title": "Angaben gemäß § 5 DDG",
+        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "E-Mail: onuronanmis@gmail.com"
+      },
+      "responsible": {
+        "title": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+        "text": "Onur Onanmis, Anschrift wie oben"
+      },
+      "links": {
+        "title": "Haftung für Links",
+        "text": "Diese Website enthält Links zu externen Websites (GitHub, LinkedIn), auf deren Inhalte ich keinen Einfluss habe. Für diese Inhalte ist der jeweilige Anbieter verantwortlich."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "responsible": {
+        "title": "1. Verantwortlicher",
+        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar\nE-Mail: onuronanmis@gmail.com"
+      },
+      "general": {
+        "title": "2. Allgemeines",
+        "text": "Der Schutz deiner persönlichen Daten ist mir wichtig. Personenbezogene Daten werden auf dieser Website nur im technisch notwendigen Umfang verarbeitet. Rechtsgrundlage ist die Datenschutz-Grundverordnung (DSGVO)."
+      },
+      "hosting": {
+        "title": "3. Hosting und Server-Logfiles",
+        "text": "Diese Website wird bei [HOSTER] gehostet. Beim Aufruf der Seite speichert der Server automatisch Informationen, die dein Browser übermittelt: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und Betriebssystem. Diese Daten dienen der sicheren und stabilen Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO) und werden nicht mit anderen Daten zusammengeführt."
+      },
+      "contactForm": {
+        "title": "4. Kontaktformular",
+        "text": "Wenn du mir über das Kontaktformular schreibst, werden dein Name, deine E-Mail-Adresse und deine Nachricht per E-Mail an mich übermittelt, um deine Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. lit. f DSGVO). Die Daten werden nicht auf der Website gespeichert und nicht an Dritte weitergegeben. Deine E-Mail lösche ich, sobald die Anfrage erledigt ist und keine gesetzlichen Aufbewahrungspflichten bestehen."
+      },
+      "localStorage": {
+        "title": "5. Lokale Speicherung (localStorage)",
+        "text": "Diese Website speichert die von dir gewählte Sprache im lokalen Speicher deines Browsers, damit sie beim nächsten Besuch erhalten bleibt. Dabei werden keine personenbezogenen Daten übertragen. Diese Speicherung ist für die gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 TDDDG). Du kannst sie jederzeit über die Einstellungen deines Browsers löschen. Cookies werden nicht eingesetzt."
+      },
+      "fonts": {
+        "title": "6. Schriftarten",
+        "text": "Die verwendeten Schriftarten sind lokal auf dem Server eingebunden. Es wird keine Verbindung zu Servern von Google oder anderen Anbietern aufgebaut."
+      },
+      "externalLinks": {
+        "title": "7. Externe Links",
+        "text": "Diese Website enthält Links zu GitHub und LinkedIn. Erst wenn du einen Link anklickst, verlässt du diese Website. Ab dann gelten die Datenschutzbestimmungen des jeweiligen Anbieters."
+      },
+      "encryption": {
+        "title": "8. SSL-/TLS-Verschlüsselung",
+        "text": "Diese Seite nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennst du an „https://“ in der Adresszeile."
+      },
+      "rights": {
+        "title": "9. Deine Rechte",
+        "text": "Du hast jederzeit das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21). Wende dich dazu an die oben genannte E-Mail-Adresse.\nAußerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, z. B. beim Landesbeauftragten für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern."
+      },
+      "status": {
+        "title": "Stand",
+        "text": "November 2026"
+      }
+    }
   }
 }

@@ -70,5 +70,71 @@
   "footer": {
     "legalNotice": "Legal Notice",
     "copyright": "© Onur Onanmis {{year}}"
+  },
+  "legalNotice": {
+    "title": "Legal Notice",
+    "sections": {
+      "provider": {
+        "title": "Information according to § 5 DDG",
+        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar"
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "Email: onuronanmis@gmail.com"
+      },
+      "responsible": {
+        "title": "Responsible for content according to § 18 (2) MStV",
+        "text": "Onur Onanmis, address as above"
+      },
+      "links": {
+        "title": "Liability for links",
+        "text": "This website contains links to external websites (GitHub, LinkedIn) whose content I have no influence on. The respective provider is responsible for this content."
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "responsible": {
+        "title": "1. Controller",
+        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar\nEmail: onuronanmis@gmail.com"
+      },
+      "general": {
+        "title": "2. General",
+        "text": "Protecting your personal data is important to me. Personal data is processed on this website only to the extent technically necessary. The legal basis is the General Data Protection Regulation (GDPR)."
+      },
+      "hosting": {
+        "title": "3. Hosting and server log files",
+        "text": "This website is hosted by [HOSTER]. When you visit the site, the server automatically stores information transmitted by your browser: IP address, date and time of access, page visited, browser type and operating system. This data is used to provide the website securely and reliably (Art. 6 (1) (f) GDPR) and is not combined with other data."
+      },
+      "contactForm": {
+        "title": "4. Contact form",
+        "text": "If you write to me via the contact form, your name, email address and message are sent to me by email so that I can answer your request (Art. 6 (1) (b) or (f) GDPR). The data is not stored on the website and is not passed on to third parties. I delete your email as soon as your request has been dealt with and no statutory retention obligations apply."
+      },
+      "localStorage": {
+        "title": "5. Local storage (localStorage)",
+        "text": "This website stores the language you have selected in your browser's local storage so that it is kept for your next visit. No personal data is transmitted. This storage is strictly necessary for the requested function (§ 25 (2) TDDDG). You can delete it at any time in your browser settings. No cookies are used."
+      },
+      "fonts": {
+        "title": "6. Fonts",
+        "text": "The fonts used are hosted locally on the server. No connection is made to servers of Google or other providers."
+      },
+      "externalLinks": {
+        "title": "7. External links",
+        "text": "This website contains links to GitHub and LinkedIn. You only leave this website when you click a link. From then on, the privacy policy of the respective provider applies."
+      },
+      "encryption": {
+        "title": "8. SSL/TLS encryption",
+        "text": "For security reasons, this site uses SSL/TLS encryption. You can recognise an encrypted connection by \"https://\" in the address bar."
+      },
+      "rights": {
+        "title": "9. Your rights",
+        "text": "You have the right at any time to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21). Please contact the email address given above.\nYou also have the right to lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of Mecklenburg-Western Pomerania."
+      },
+      "status": {
+        "title": "Last updated",
+        "text": "November 2026"
+      }
+    }
   }
 }
