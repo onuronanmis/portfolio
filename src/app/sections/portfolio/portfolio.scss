@@ -17,11 +17,11 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-left: -$content-padding-desktop;
+  @include extend-to-left;
 }
 
 .title-line {
-  width: 76px;
+  width: calc(max(0px, (100vw - #{$content-max-width}) / 2) + 76px);
   height: 4px;
   background-color: $color-primary-purple;
 }

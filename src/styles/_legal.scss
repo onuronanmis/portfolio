@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-right: -$content-padding-desktop;
+  @include extend-to-right;
   margin-bottom: 16px;
 }
 
@@ -61,10 +61,6 @@
 @include media-max($breakpoint-tablet) {
   .legal-page {
     padding-top: 96px;
-  }
-
-  .legal-title {
-    margin-right: -$content-padding-mobile;
   }
 
   .legal-heading {

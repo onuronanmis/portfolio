@@ -30,3 +30,19 @@
     padding: 0 $content-padding-mobile;
   }
 }
+
+@mixin extend-to-right {
+  margin-right: calc(-1 * (max(0px, (100vw - #{$content-max-width}) / 2) + #{$content-padding-desktop}));
+
+  @include media-max($breakpoint-tablet) {
+    margin-right: -$content-padding-mobile;
+  }
+}
+
+@mixin extend-to-left {
+  margin-left: calc(-1 * (max(0px, (100vw - #{$content-max-width}) / 2) + #{$content-padding-desktop}));
+
+  @include media-max($breakpoint-tablet) {
+    margin-left: -$content-padding-mobile;
+  }
+}

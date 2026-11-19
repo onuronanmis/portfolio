@@ -17,10 +17,12 @@
 
 .shadow-purple {
   left: 0;
+  width: max(490px, 34vw);
 }
 
 .shadow-turquoise {
   right: 0;
+  width: max(434px, 30vw);
 }
 
 .hero-content {
@@ -78,7 +80,7 @@
 }
 
 .green-line {
-  width: 76px;
+  width: calc(max(0px, (100vw - #{$content-max-width}) / 2) + 76px);
   height: 4px;
   background-color: $color-primary-green;
 }

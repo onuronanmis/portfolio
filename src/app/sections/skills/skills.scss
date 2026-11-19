@@ -56,7 +56,8 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  width: calc(100% + #{$content-padding-desktop});
+  align-self: stretch;
+  @include extend-to-right;
 }
 
 .title-line {
