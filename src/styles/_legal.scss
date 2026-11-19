@@ -24,7 +24,7 @@
 
 .legal-heading {
   color: $color-primary-green;
-  font-size: 90px;
+  font-size: clamp(40px, 6.25vw, 90px);
   font-weight: 700;
   line-height: 120%;
 }
@@ -61,10 +61,6 @@
 @include media-max($breakpoint-tablet) {
   .legal-page {
     padding-top: 96px;
-  }
-
-  .legal-heading {
-    font-size: 40px;
   }
 
   .legal-back {

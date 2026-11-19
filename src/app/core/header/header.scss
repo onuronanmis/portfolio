@@ -67,4 +67,12 @@
     display: block;
     margin-left: auto;
   }
+
+  .header-content {
+    height: $header-height-mobile;
+  }
+
+  .header-logo {
+    font-size: 28px;
+  }
 }

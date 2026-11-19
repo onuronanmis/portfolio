@@ -36,25 +36,25 @@
 .hero-title {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: clamp(8px, 1.7vw, 24px);
 }
 
 .title-intro {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: 90px;
+  font-size: clamp(32px, 6.25vw, 90px);
   line-height: 120%;
 }
 
 .hero-name {
-  font-size: 128px;
+  font-size: clamp(36px, 8.9vw, 128px);
   font-weight: 700;
   line-height: 120%;
   white-space: nowrap;
 }
 
 .hero-job {
-  font-size: 64px;
+  font-size: clamp(18px, 4.45vw, 64px);
   line-height: 120%;
   color: $color-primary-purple;
 }
@@ -83,4 +83,26 @@
   width: calc(max(0px, (100vw - #{$content-max-width}) / 2) + 76px);
   height: 4px;
   background-color: $color-primary-green;
+}
+
+@include media-max($breakpoint-tablet) {
+  .hero-section {
+    min-height: calc(100dvh - #{$header-height-mobile});
+  }
+
+  .hero-content {
+    gap: 32px;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+
+  .shadow-purple {
+    width: 60vw;
+  }
+
+  .shadow-turquoise {
+    width: 50vw;
+  }
 }
