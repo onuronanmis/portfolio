@@ -47,5 +47,24 @@
       "second": "Placeholder: quote from a team partner about working together on a project.",
       "third": "Placeholder: quote from a team partner about working together on a project."
     }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Got a problem to solve?",
+    "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+    "needDeveloper": "Need a Fullstack developer?",
+    "contactMe": "Contact me!",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "nameError": "Please enter your name",
+    "emailError": "Please enter a valid email address",
+    "messageError": "Please enter a message",
+    "privacyStart": "I've read the ",
+    "privacyLink": "privacy policy",
+    "privacyEnd": " and agree to the processing of my data as outlined.",
+    "privacyError": "Please accept the privacy policy",
+    "button": "Send message :)",
+    "success": "Thank you! Your message has been sent."
   }
 }

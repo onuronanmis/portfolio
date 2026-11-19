@@ -1,1 +1,62 @@
-<p>contact works!</p>
+<section class="contact-section" id="contact-section">
+  <div class="contact-content">
+    <div class="contact-title">
+      <h2 class="section-heading">{{ 'contact.title' | translate }}</h2>
+      <span class="title-line"></span>
+    </div>
+
+    <div class="contact-body">
+      <div class="contact-text">
+        <h3 class="contact-subtitle">{{ 'contact.subtitle' | translate }}</h3>
+        <p class="contact-description">{{ 'contact.description' | translate }}</p>
+        <p class="contact-description">
+          {{ 'contact.needDeveloper' | translate }}
+          <strong class="contact-highlight">{{ 'contact.contactMe' | translate }}</strong>
+        </p>
+      </div>
+
+      <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="submitForm()">
+        <div class="form-field" [class.field-error]="hasError('name')" [class.field-valid]="isValid('name')">
+          <input type="text" formControlName="name" class="form-input" [placeholder]="'contact.namePlaceholder' | translate">
+          @if (hasError('name')) {
+            <p class="error-text">{{ 'contact.nameError' | translate }}</p>
+          }
+        </div>
+
+        <div class="form-field" [class.field-error]="hasError('email')" [class.field-valid]="isValid('email')">
+          <input type="email" formControlName="email" class="form-input" [placeholder]="'contact.emailPlaceholder' | translate">
+          @if (hasError('email')) {
+            <p class="error-text">{{ 'contact.emailError' | translate }}</p>
+          }
+        </div>
+
+        <div class="form-field" [class.field-error]="hasError('message')" [class.field-valid]="isValid('message')">
+          <textarea formControlName="message" class="form-input form-message" [placeholder]="'contact.messagePlaceholder' | translate"></textarea>
+          @if (hasError('message')) {
+            <p class="error-text">{{ 'contact.messageError' | translate }}</p>
+          }
+        </div>
+
+        <label class="privacy-check">
+          <input type="checkbox" formControlName="privacy" class="check-input">
+          <span class="check-box"></span>
+          <span class="check-text">
+            {{ 'contact.privacyStart' | translate }}<a routerLink="/privacy-policy" class="privacy-link">{{ 'contact.privacyLink' | translate }}</a>{{ 'contact.privacyEnd' | translate }}
+          </span>
+        </label>
+        @if (hasError('privacy')) {
+          <p class="error-text">{{ 'contact.privacyError' | translate }}</p>
+        }
+
+        <button type="submit" class="primary-button submit-button" [disabled]="contactForm.invalid">{{ 'contact.button' | translate }}</button>
+        @if (sendSuccess()) {
+          <p class="success-text">{{ 'contact.success' | translate }}</p>
+        }
+      </form>
+    </div>
+
+    <button type="button" class="scroll-top" (click)="scrollToTop()" aria-label="Scroll to top">
+      <img src="/icons/button/go-up-button.png" alt="">
+    </button>
+  </div>
+</section>

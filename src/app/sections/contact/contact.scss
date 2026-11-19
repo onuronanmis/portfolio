@@ -1,0 +1,199 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.contact-section {
+  padding: 80px 0 120px;
+  overflow: hidden;
+}
+
+.contact-content {
+  @include content-container;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: -$content-padding-desktop;
+}
+
+.title-line {
+  flex: 1;
+  height: 4px;
+  background-color: $color-primary-green;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 500px;
+}
+
+.contact-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contact-description {
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.contact-highlight {
+  color: $color-primary-purple;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &::after {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.field-error::after {
+  content: '!';
+  color: $color-error-red;
+}
+
+.field-valid::after {
+  content: '✓';
+  color: $color-primary-green;
+}
+
+.form-input {
+  width: 100%;
+  height: 50px;
+  padding: 0 48px 0 16px;
+  border: 1px solid $color-primary-purple;
+  border-radius: 10px;
+  background-color: $color-background;
+  color: $color-text-white;
+  font-family: $font-main;
+  font-size: 18px;
+  outline: none;
+  transition: border-color $transition-default;
+
+  &::placeholder {
+    color: rgba($color-text-white, 0.6);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $color-accent-turquoise;
+  }
+}
+
+.form-message {
+  height: 200px;
+  padding: 16px 48px 16px 16px;
+  resize: none;
+}
+
+.field-error .form-input {
+  border-color: $color-error-red;
+}
+
+.field-valid .form-input {
+  border-color: $color-primary-green;
+}
+
+.error-text {
+  color: $color-error-red;
+  font-size: 14px;
+}
+
+.privacy-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.check-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.check-box {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 2px solid $color-primary-green;
+  border-radius: 4px;
+  transition: background-color $transition-default;
+}
+
+.check-input:checked + .check-box {
+  background-color: $color-primary-green;
+
+  &::after {
+    content: '✓';
+    color: $color-background;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.privacy-link {
+  color: $color-primary-purple;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.submit-button {
+  align-self: flex-start;
+}
+
+.success-text {
+  color: $color-primary-green;
+  font-size: 16px;
+}
+
+.scroll-top {
+  position: absolute;
+  right: $content-padding-desktop;
+  bottom: -80px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform $transition-default;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}

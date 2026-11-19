@@ -47,5 +47,24 @@
       "second": "Placeholder: quote from a team partner about working together on a project.",
       "third": "Placeholder: quote from a team partner about working together on a project."
     }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Çözülecek bir problemin mi var?",
+    "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+    "needDeveloper": "Fullstack geliştiriciye mi ihtiyacın var?",
+    "contactMe": "Bana ulaş!",
+    "namePlaceholder": "Adın",
+    "emailPlaceholder": "E-posta adresin",
+    "messagePlaceholder": "Mesajın",
+    "nameError": "Lütfen adını gir",
+    "emailError": "Lütfen geçerli bir e-posta adresi gir",
+    "messageError": "Lütfen bir mesaj yaz",
+    "privacyStart": "",
+    "privacyLink": "Gizlilik politikasını",
+    "privacyEnd": " okudum ve verilerimin belirtildiği şekilde işlenmesini kabul ediyorum.",
+    "privacyError": "Lütfen gizlilik politikasını kabul et",
+    "button": "Mesaj gönder :)",
+    "success": "Teşekkürler! Mesajın gönderildi."
   }
 }
