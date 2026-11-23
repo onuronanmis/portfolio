@@ -14,19 +14,19 @@
   },
   "aboutMe": {
     "title": "About me",
-    "intro": "Hey there, I'm Onur! Write some information about yourself that is IT related. Why are you passionate about coding? What is your source of inspiration for improving your programming skills?",
-    "connect": "Let's connect and create something amazing together!",
-    "location": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
-    "mindset": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
-    "problemSolving": "A brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include some keywords like: analytical thinking, creativity, persistence and collaboration."
+    "intro": "Hey there, I'm Onur! As an industrial mechanic, I learned to work precisely and solve technical problems. Today I'm bringing this experience to software development: I'm currently retraining as a full-stack developer at the Developer Akademie. What excites me is turning ideas into code step by step and seeing the result right in the browser.",
+    "connect": "Let's connect and bring ideas to life together!",
+    "location": "I'm based in Wismar, Germany, and enjoy working remotely or in a hybrid setup. I'm not planning to relocate.",
+    "mindset": "I enjoy getting to know new technologies. Alongside my training, I deepen my knowledge through documentation, my own exercises and hands-on projects.",
+    "problemSolving": "I approach problems in a structured way: I narrow down the issue, research documentation and forums, and test possible solutions. If I get stuck, I ask my team or my mentor for advice – together you often find the better solution."
   },
   "skills": {
     "title": "Skills",
-    "description": "Highlight your experience of working on different projects using different front-end technologies (such as HTML, CSS, JavaScript, etc.) and emphasise your openness to learning and adapting to new technologies. Mention the importance of continuing education to keep up with the rapid changes in web development.",
+    "description": "In my projects I have worked with HTML, CSS, JavaScript, TypeScript and Angular, gaining experience with Git, REST APIs and Supabase along the way. Later in my training, Python, Django and Flask will follow for the backend. Web development changes fast, which is why I keep learning.",
     "questionStart": "Looking for ",
     "questionHighlight": "another skill",
     "questionEnd": "?",
-    "questionText": "Reveal enthusiasm for learning new technologies and frameworks.",
+    "questionText": "I'm open to new technologies and frameworks and look forward to getting to grips with them.",
     "button": "Get in touch"
   },
   "portfolio": {
@@ -51,7 +51,7 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Got a problem to solve?",
-    "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+    "description": "Are you looking for a motivated junior full-stack developer for a permanent position? Then get in touch! With the precision I bring from industry and my passion for coding, I'd love to support your team.",
     "needDeveloper": "Need a Fullstack developer?",
     "contactMe": "Contact me!",
     "namePlaceholder": "Your name",

@@ -14,19 +14,19 @@
   },
   "aboutMe": {
     "title": "Hakkımda",
-    "intro": "Hey there, I'm Onur! Write some information about yourself that is IT related. Why are you passionate about coding? What is your source of inspiration for improving your programming skills?",
-    "connect": "Let's connect and create something amazing together!",
-    "location": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
-    "mindset": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
-    "problemSolving": "A brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include some keywords like: analytical thinking, creativity, persistence and collaboration."
+    "intro": "Merhaba, ben Onur! Endüstriyel mekanik teknisyeni olarak titiz çalışmayı ve teknik sorunları çözmeyi öğrendim. Bugün bu deneyimi yazılım geliştirmeye aktarıyorum: Developer Akademie'de şu anda Fullstack geliştirici olarak meslek değiştirme eğitimi alıyorum. Fikirleri adım adım kodla hayata geçirmek ve sonucu doğrudan tarayıcıda görmek beni heyecanlandırıyor.",
+    "connect": "Hadi iletişime geçelim ve fikirleri birlikte hayata geçirelim!",
+    "location": "Wismar'da yaşıyorum ve uzaktan veya hibrit çalışmayı seviyorum. Taşınmayı planlamıyorum.",
+    "mindset": "Yeni teknolojileri tanımaktan keyif alıyorum. Eğitimimin yanında dokümantasyonlar, kendi alıştırmalarım ve pratik projelerle bilgimi derinleştiriyorum.",
+    "problemSolving": "Sorunlara yapılandırılmış bir şekilde yaklaşırım: Hatayı daraltır, dokümantasyon ve forumlarda araştırır ve çözümleri denerim. İlerleyemediğimde ekibimden veya mentorumdan tavsiye alırım – birlikte çoğu zaman daha iyi bir çözüm bulunur."
   },
   "skills": {
     "title": "Yetenekler",
-    "description": "Highlight your experience of working on different projects using different front-end technologies (such as HTML, CSS, JavaScript, etc.) and emphasise your openness to learning and adapting to new technologies. Mention the importance of continuing education to keep up with the rapid changes in web development.",
+    "description": "Projelerimde HTML, CSS, JavaScript, TypeScript ve Angular ile çalıştım; bu süreçte Git, REST API'leri ve Supabase konusunda da deneyim kazandım. Eğitimimin ilerleyen aşamalarında backend için Python, Django ve Flask eklenecek. Web geliştirme hızla değişiyor, bu yüzden öğrenmeye devam ediyorum.",
     "questionStart": "",
     "questionHighlight": "Başka bir yetenek",
     "questionEnd": " mi arıyorsun?",
-    "questionText": "Reveal enthusiasm for learning new technologies and frameworks.",
+    "questionText": "Yeni teknolojilere ve framework'lere açığım ve bunları öğrenmeyi sabırsızlıkla bekliyorum.",
     "button": "İletişime geç"
   },
   "portfolio": {
@@ -51,7 +51,7 @@
   "contact": {
     "title": "İletişim",
     "subtitle": "Çözülecek bir problemin mi var?",
-    "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+    "description": "Kadrolu bir pozisyon için motive bir Junior Fullstack geliştirici mi arıyorsun? O zaman bana yaz! Sanayiden getirdiğim titizlik ve kodlamaya olan tutkumla ekibine destek olmaktan memnuniyet duyarım.",
     "needDeveloper": "Fullstack geliştiriciye mi ihtiyacın var?",
     "contactMe": "Bana ulaş!",
     "namePlaceholder": "Adın",

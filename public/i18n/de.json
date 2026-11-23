@@ -14,19 +14,19 @@
   },
   "aboutMe": {
     "title": "Über mich",
-    "intro": "Hey there, I'm Onur! Write some information about yourself that is IT related. Why are you passionate about coding? What is your source of inspiration for improving your programming skills?",
-    "connect": "Let's connect and create something amazing together!",
-    "location": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
-    "mindset": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
-    "problemSolving": "A brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include some keywords like: analytical thinking, creativity, persistence and collaboration."
+    "intro": "Hey, ich bin Onur! Als Industriemechaniker habe ich gelernt, präzise zu arbeiten und technische Probleme zu lösen. Heute übertrage ich diese Erfahrung auf die Softwareentwicklung: Bei der Developer Akademie mache ich aktuell eine Umschulung zum Fullstack-Entwickler. Mich begeistert, Ideen Schritt für Schritt mit Code umzusetzen und das Ergebnis direkt im Browser zu sehen.",
+    "connect": "Lass uns in Kontakt treten und gemeinsam Ideen umsetzen!",
+    "location": "Ich wohne in Wismar und arbeite gerne remote oder hybrid. Einen Umzug plane ich nicht.",
+    "mindset": "Ich lerne gerne neue Technologien kennen. Neben meiner Umschulung vertiefe ich mein Wissen mit Dokumentationen, eigenen Übungen und praktischen Projekten.",
+    "problemSolving": "Bei Problemen gehe ich strukturiert vor: Ich grenze den Fehler ein, recherchiere in Dokumentationen und Foren und probiere Lösungen aus. Komme ich nicht weiter, hole ich mir Rat im Team oder bei meinem Mentor – gemeinsam findet man oft die bessere Lösung."
   },
   "skills": {
     "title": "Skills",
-    "description": "Highlight your experience of working on different projects using different front-end technologies (such as HTML, CSS, JavaScript, etc.) and emphasise your openness to learning and adapting to new technologies. Mention the importance of continuing education to keep up with the rapid changes in web development.",
+    "description": "In meinen Projekten habe ich mit HTML, CSS, JavaScript, TypeScript und Angular gearbeitet und dabei Erfahrung mit Git, REST-APIs und Supabase gesammelt. Im weiteren Verlauf meiner Umschulung kommen Python, Django und Flask für das Backend dazu. Webentwicklung verändert sich schnell – deshalb lerne ich ständig weiter.",
     "questionStart": "Suchst du ",
     "questionHighlight": "eine andere Fähigkeit",
     "questionEnd": "?",
-    "questionText": "Reveal enthusiasm for learning new technologies and frameworks.",
+    "questionText": "Ich bin offen für neue Technologien und Frameworks und freue mich darauf, mich einzuarbeiten.",
     "button": "Kontakt aufnehmen"
   },
   "portfolio": {
@@ -51,7 +51,7 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Hast du ein Problem zu lösen?",
-    "description": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+    "description": "Du suchst einen motivierten Junior-Fullstack-Entwickler für eine Festanstellung? Dann schreib mir! Mit der Sorgfalt aus der Industrie und meiner Begeisterung fürs Programmieren unterstütze ich gerne dein Team.",
     "needDeveloper": "Brauchst du einen Fullstack-Entwickler?",
     "contactMe": "Kontaktiere mich!",
     "namePlaceholder": "Dein Name",
