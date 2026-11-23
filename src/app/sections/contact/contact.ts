@@ -15,7 +15,7 @@ export class Contact {
   protected contactForm = this.formBuilder.nonNullable.group({
     name: ['', Validators.required],
     email: ['', [Validators.required, Validators.pattern(/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/)]],
-    message: ['', Validators.required],
+    message: ['', [Validators.required, Validators.pattern(/^\s*(\S\s*){10,}$/)]],
     privacy: [false, Validators.requiredTrue],
   });
 

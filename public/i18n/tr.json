@@ -59,7 +59,7 @@
     "messagePlaceholder": "Mesajın",
     "nameError": "Lütfen adını gir",
     "emailError": "Lütfen geçerli bir e-posta adresi gir",
-    "messageError": "Lütfen bir mesaj yaz",
+    "messageError": "Lütfen en az 10 karakterlik bir mesaj yaz",
     "privacyStart": "",
     "privacyLink": "Gizlilik politikasını",
     "privacyEnd": " okudum ve verilerimin belirtildiği şekilde işlenmesini kabul ediyorum.",

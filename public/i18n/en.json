@@ -59,7 +59,7 @@
     "messagePlaceholder": "Your message",
     "nameError": "Please enter your name",
     "emailError": "Please enter a valid email address",
-    "messageError": "Please enter a message",
+    "messageError": "Please enter a message with at least 10 characters",
     "privacyStart": "I've read the ",
     "privacyLink": "privacy policy",
     "privacyEnd": " and agree to the processing of my data as outlined.",

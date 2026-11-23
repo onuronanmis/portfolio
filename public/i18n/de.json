@@ -59,7 +59,7 @@
     "messagePlaceholder": "Deine Nachricht",
     "nameError": "Bitte gib deinen Namen ein",
     "emailError": "Bitte gib eine gültige E-Mail-Adresse ein",
-    "messageError": "Bitte gib eine Nachricht ein",
+    "messageError": "Bitte gib eine Nachricht mit mindestens 10 Zeichen ein",
     "privacyStart": "Ich habe die ",
     "privacyLink": "Datenschutzerklärung",
     "privacyEnd": " gelesen und stimme der Verarbeitung meiner Daten zu.",
