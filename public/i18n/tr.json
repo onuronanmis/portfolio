@@ -14,11 +14,11 @@
   },
   "aboutMe": {
     "title": "Hakkımda",
-    "intro": "Merhaba, ben Onur! Eğitimli bir endüstriyel mekanik teknisyeni olarak titiz çalışmayı ve teknik sorunları çözmeyi öğrendim. Bugün bu deneyimi yazılım geliştirmeye aktarıyorum: Developer Akademie'de şu anda Fullstack geliştirici olarak meslek değiştirme eğitimi alıyorum. Fikirleri adım adım kodla hayata geçirmek ve sonucu doğrudan tarayıcıda görmek beni heyecanlandırıyor.",
-    "connect": "Hadi iletişime geçelim ve fikirleri birlikte hayata geçirelim!",
-    "location": "Wismar'da yaşıyorum ve uzaktan veya hibrit çalışmayı seviyorum. Taşınmayı planlamıyorum.",
-    "mindset": "Yeni teknolojileri tanımaktan keyif alıyorum. Eğitimimin yanında dokümantasyonlar, kendi alıştırmalarım ve pratik projelerle bilgimi genişletiyorum.",
-    "problemSolving": "Sorunlara yapılandırılmış bir şekilde yaklaşırım. Hatayı daraltır, dokümantasyon ve forumlarda araştırır ve çözümleri denerim. İlerleyemediğimde ekibimden veya mentorumdan tavsiye alırım – birlikte çoğu zaman daha iyi bir çözüm bulunur."
+    "intro": "Merhaba, ben Onur! Endüstri mekanikçisi olarak aldığım eğitim sayesinde titiz çalışmayı ve teknik sorunları çözmeyi öğrendim. Bugün bu deneyimimi yazılım geliştirmeye aktarıyorum. Şu anda Developer Akademie’de Fullstack geliştirici olmak için meslek değişikliği eğitimi alıyorum. Fikirleri adım adım kodla hayata geçirmek ve sonucu doğrudan tarayıcıda görmek beni heyecanlandırıyor.",
+    "connect": "İletişime geçelim ve birlikte fikirleri hayata geçirelim!",
+    "location": "Wismar’da yaşıyorum. Uzaktan veya hibrit çalışmaya açığım. Taşınmayı planlamıyorum.",
+    "mindset": "Yeni teknolojiler öğrenmekten keyif alıyorum. Eğitimimin yanı sıra teknik dokümanları inceleyerek, alıştırmalar yaparak ve projeler geliştirerek bilgimi pekiştiriyorum.",
+    "problemSolving": "Sorunlarla karşılaştığımda sistemli ilerlerim: Önce sorunun kaynağını belirlemeye çalışır, ardından teknik dokümanlarda ve forumlarda araştırma yaparak olası çözümleri denerim. İlerleyemediğimde ekibimden veya mentorumdan destek alırım. Birlikte çoğu zaman daha iyi bir çözüm buluruz."
   },
   "skills": {
     "title": "Yetenekler",

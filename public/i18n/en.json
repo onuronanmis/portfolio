@@ -14,11 +14,11 @@
   },
   "aboutMe": {
     "title": "About me",
-    "intro": "Hey there, I'm Onur! As a trained industrial mechanic, I learned to work precisely and solve technical problems. Today I'm bringing this experience to software development: I'm currently retraining as a full-stack developer at the Developer Akademie. I'm excited to turn ideas into code step by step and see the result right in the browser.",
+    "intro": "Hello, I'm Onur! As a trained industrial mechanic, I learnt to work with precision and solve technical problems. I'm now bringing this experience to software development. I'm currently retraining as a full-stack developer at the Developer Akademie. I'm excited to turn ideas into code and see the results in the browser.",
     "connect": "Let's connect and bring ideas to life together!",
-    "location": "I'm based in Wismar, Germany, and enjoy working remotely or in a hybrid setup. I'm not planning to relocate.",
-    "mindset": "I enjoy getting to know new technologies. Alongside my training, I expand my knowledge through documentation, my own exercises and hands-on projects.",
-    "problemSolving": "I approach problems in a structured way. I narrow down the issue, research documentation and forums, and test possible solutions. When I get stuck, I ask my team or my mentor for advice – together you often find the better solution."
+    "location": "I am based in Wismar, Germany, and I enjoy working remotely or in a hybrid setup. I'm not planning to relocate.",
+    "mindset": "I enjoy getting to know new technologies. Alongside my training, I expand my knowledge through documentation, exercises and hands-on projects.",
+    "problemSolving": "I approach problems in a structured way. I narrow down the issue, research documentation and forums, and test possible solutions. When I get stuck, I ask my team or my mentor for advice – it's often better to find solutions together."
   },
   "skills": {
     "title": "Skills",
