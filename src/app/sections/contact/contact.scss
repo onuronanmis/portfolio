@@ -57,7 +57,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 8px;
   width: 100%;
   max-width: 600px;
 }
@@ -110,6 +110,15 @@
   }
 }
 
+.form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover,
+.form-input:-webkit-autofill:focus {
+  -webkit-text-fill-color: $color-text-white;
+  -webkit-box-shadow: 0 0 0 1000px $color-background inset;
+  caret-color: $color-text-white;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
 .form-message {
   height: 200px;
   padding: 16px 48px 16px 16px;
@@ -125,8 +134,10 @@
 }
 
 .error-text {
+  min-height: 1.2em;
   color: $color-error-red;
   font-size: 14px;
+  line-height: 120%;
 }
 
 .privacy-check {
