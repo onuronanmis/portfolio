@@ -14,11 +14,11 @@
   },
   "aboutMe": {
     "title": "Hakkımda",
-    "intro": "Merhaba, ben Onur! Endüstriyel mekanik teknisyeni olarak titiz çalışmayı ve teknik sorunları çözmeyi öğrendim. Bugün bu deneyimi yazılım geliştirmeye aktarıyorum: Developer Akademie'de şu anda Fullstack geliştirici olarak meslek değiştirme eğitimi alıyorum. Fikirleri adım adım kodla hayata geçirmek ve sonucu doğrudan tarayıcıda görmek beni heyecanlandırıyor.",
+    "intro": "Merhaba, ben Onur! Eğitimli bir endüstriyel mekanik teknisyeni olarak titiz çalışmayı ve teknik sorunları çözmeyi öğrendim. Bugün bu deneyimi yazılım geliştirmeye aktarıyorum: Developer Akademie'de şu anda Fullstack geliştirici olarak meslek değiştirme eğitimi alıyorum. Fikirleri adım adım kodla hayata geçirmek ve sonucu doğrudan tarayıcıda görmek beni heyecanlandırıyor.",
     "connect": "Hadi iletişime geçelim ve fikirleri birlikte hayata geçirelim!",
     "location": "Wismar'da yaşıyorum ve uzaktan veya hibrit çalışmayı seviyorum. Taşınmayı planlamıyorum.",
-    "mindset": "Yeni teknolojileri tanımaktan keyif alıyorum. Eğitimimin yanında dokümantasyonlar, kendi alıştırmalarım ve pratik projelerle bilgimi derinleştiriyorum.",
-    "problemSolving": "Sorunlara yapılandırılmış bir şekilde yaklaşırım: Hatayı daraltır, dokümantasyon ve forumlarda araştırır ve çözümleri denerim. İlerleyemediğimde ekibimden veya mentorumdan tavsiye alırım – birlikte çoğu zaman daha iyi bir çözüm bulunur."
+    "mindset": "Yeni teknolojileri tanımaktan keyif alıyorum. Eğitimimin yanında dokümantasyonlar, kendi alıştırmalarım ve pratik projelerle bilgimi genişletiyorum.",
+    "problemSolving": "Sorunlara yapılandırılmış bir şekilde yaklaşırım. Hatayı daraltır, dokümantasyon ve forumlarda araştırır ve çözümleri denerim. İlerleyemediğimde ekibimden veya mentorumdan tavsiye alırım – birlikte çoğu zaman daha iyi bir çözüm bulunur."
   },
   "skills": {
     "title": "Yetenekler",

@@ -14,11 +14,11 @@
   },
   "aboutMe": {
     "title": "Über mich",
-    "intro": "Hey, ich bin Onur! Als Industriemechaniker habe ich gelernt, präzise zu arbeiten und technische Probleme zu lösen. Heute übertrage ich diese Erfahrung auf die Softwareentwicklung: Bei der Developer Akademie mache ich aktuell eine Umschulung zum Fullstack-Entwickler. Mich begeistert, Ideen Schritt für Schritt mit Code umzusetzen und das Ergebnis direkt im Browser zu sehen.",
+    "intro": "Hey, ich bin Onur! Als ausgebildeter Industriemechaniker habe ich gelernt, präzise zu arbeiten und technische Probleme zu lösen. Heute übertrage ich diese Erfahrung auf die Softwareentwicklung: Aktuell mache ich bei der Developer Akademie eine Umschulung zum Fullstack-Entwickler. Es begeistert mich, Ideen Schritt für Schritt mit Code umzusetzen und das Ergebnis direkt im Browser zu sehen.",
     "connect": "Lass uns in Kontakt treten und gemeinsam Ideen umsetzen!",
     "location": "Ich wohne in Wismar und arbeite gerne remote oder hybrid. Einen Umzug plane ich nicht.",
-    "mindset": "Ich lerne gerne neue Technologien kennen. Neben meiner Umschulung vertiefe ich mein Wissen mit Dokumentationen, eigenen Übungen und praktischen Projekten.",
-    "problemSolving": "Bei Problemen gehe ich strukturiert vor: Ich grenze den Fehler ein, recherchiere in Dokumentationen und Foren und probiere Lösungen aus. Komme ich nicht weiter, hole ich mir Rat im Team oder bei meinem Mentor – gemeinsam findet man oft die bessere Lösung."
+    "mindset": "Ich lerne gerne neue Technologien kennen. Neben meiner Umschulung erweitere ich meine Kenntnisse mithilfe von Dokumentationen, eigenen Übungen und praktischen Projekten.",
+    "problemSolving": "Bei Problemen gehe ich strukturiert vor. Ich grenze den Fehler ein, recherchiere in Dokumentationen und Foren und probiere Lösungen aus. Wenn ich nicht weiterkomme, hole ich mir Rat im Team oder bei meinem Mentor – gemeinsam findet man oft die bessere Lösung."
   },
   "skills": {
     "title": "Skills",
