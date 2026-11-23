@@ -1,0 +1,26 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.scroll-down {
+  position: fixed;
+  right: calc(max(0px, (100vw - #{$content-max-width}) / 2) + 40px);
+  bottom: 32px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: 18px;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+}
+
+@include media-max($breakpoint-tablet) {
+  .scroll-down {
+    display: none;
+  }
+}

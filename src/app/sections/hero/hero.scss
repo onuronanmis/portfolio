@@ -59,17 +59,6 @@
   color: $color-primary-purple;
 }
 
-.scroll-down {
-  position: absolute;
-  right: $content-padding-desktop;
-  bottom: 32px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  writing-mode: vertical-rl;
-  font-size: 18px;
-}
-
 .hero-socials {
   position: absolute;
   left: 0;
@@ -92,10 +81,6 @@
 
   .hero-content {
     gap: 32px;
-  }
-
-  .scroll-down {
-    display: none;
   }
 
   .shadow-purple {
