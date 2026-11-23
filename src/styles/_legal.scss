@@ -36,7 +36,9 @@
 }
 
 .legal-back {
-  display: none;
+  position: absolute;
+  top: -56px;
+  right: $content-padding-desktop;
 }
 
 .legal-block {
@@ -64,14 +66,6 @@
   }
 
   .legal-back {
-    position: absolute;
-    top: -56px;
     right: $content-padding-mobile;
-    display: block;
-
-    img {
-      width: 32px;
-      height: 32px;
-    }
   }
 }

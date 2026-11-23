@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Back } from '../../shared/components/back/back';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  imports: [RouterLink, TranslatePipe],
+  imports: [Back, TranslatePipe],
   selector: 'app-imprint',
   styleUrl: './imprint.scss',
   templateUrl: './imprint.html',
