@@ -22,11 +22,11 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "In my projects I have worked with HTML, CSS, JavaScript, TypeScript and Angular, gaining experience with Git, REST APIs and Supabase along the way. Later in my training, Python, Django and Flask will follow for the backend. Web development changes fast, which is why I keep learning.",
+    "description": "In my projects, I’ve worked with HTML, CSS, JavaScript, TypeScript and Angular, gaining experience with Git, REST APIs and Supabase along the way. Later in my retraining, I’ll learn Python, Django and Flask for backend development. Web development changes fast, which is why I keep learning.",
     "questionStart": "Looking for ",
     "questionHighlight": "another skill",
     "questionEnd": "?",
-    "questionText": "I'm open to new technologies and frameworks and look forward to getting to grips with them.",
+    "questionText": "I’m open to new technologies and frameworks and look forward to learning them.",
     "button": "Get in touch"
   },
   "portfolio": {

@@ -22,7 +22,7 @@
   },
   "skills": {
     "title": "Yetenekler",
-    "description": "Projelerimde HTML, CSS, JavaScript, TypeScript ve Angular ile çalıştım; bu süreçte Git, REST API'leri ve Supabase konusunda da deneyim kazandım. Eğitimimin ilerleyen aşamalarında backend için Python, Django ve Flask eklenecek. Web geliştirme hızla değişiyor, bu yüzden öğrenmeye devam ediyorum.",
+    "description": "Projelerimde HTML, CSS, JavaScript, TypeScript ve Angular ile çalıştım. Bu süreçte Git, REST API’leri ve Supabase konusunda da deneyim kazandım. Eğitimimin ilerleyen aşamalarında backend geliştirme için Python, Django ve Flask öğreneceğim. Web geliştirme hızla değişiyor, bu yüzden öğrenmeye devam ediyorum.",
     "questionStart": "",
     "questionHighlight": "Başka bir yetenek",
     "questionEnd": " mi arıyorsun?",
