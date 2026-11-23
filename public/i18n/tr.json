@@ -50,9 +50,9 @@
   },
   "contact": {
     "title": "İletişim",
-    "subtitle": "Çözülecek bir problemin mi var?",
-    "description": "Kadrolu bir pozisyon için motive bir Junior Fullstack geliştirici mi arıyorsun? O zaman bana yaz! Sanayiden getirdiğim titizlik ve kodlamaya olan tutkumla ekibine destek olmaktan memnuniyet duyarım.",
-    "needDeveloper": "Fullstack geliştiriciye mi ihtiyacın var?",
+    "subtitle": "Çözmek istediğin bir sorun mu var?",
+    "description": "Ekibinde tam zamanlı ve uzun vadeli çalışacak, motivasyonu yüksek bir junior full-stack geliştirici mi arıyorsun? O zaman bana yaz! Endüstri mekanikçisi olarak kazandığım titizlik ve problem çözme becerilerimi kodlama tutkumla birleştirerek ekibine destek olmak isterim.",
+    "needDeveloper": "Bir full-stack geliştiriciye mi ihtiyacın var?",
     "contactMe": "Bana ulaş!",
     "namePlaceholder": "Adın",
     "emailPlaceholder": "E-posta adresin",
