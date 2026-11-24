@@ -4,12 +4,14 @@
 .menu-overlay {
   @include flex-center(column);
   gap: 24px;
-  position: absolute;
-  top: 100%;
+  position: fixed;
+  top: $header-height-mobile;
   left: 0;
   width: 100%;
-  height: calc(100dvh - 100%);
-  background-color: rgba(63, 69, 82, 0.95);
+  height: calc(100dvh - #{$header-height-mobile});
+  background-color: rgb(63, 69, 82);
+  overscroll-behavior: contain;
+  touch-action: none;
   transform: translateX(100%);
   visibility: hidden;
   transition: transform 400ms ease-in-out, visibility 400ms;
@@ -21,12 +23,28 @@
 }
 
 .menu-link {
+  position: relative;
+  padding-bottom: 4px;
   font-size: 24px;
-  padding: 8px 24px;
-  border-radius: 10px;
-  transition: background-color $transition-default;
+  transition: color $transition-default;
 
-  &:hover {
-    background-color: rgba($color-primary-green, 0.25);
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: $color-primary-purple;
+    transition: width 300ms ease-in-out;
+  }
+
+  &:hover,
+  &:active {
+    color: $color-primary-green;
+
+    &::after {
+      width: 100%;
+    }
   }
 }

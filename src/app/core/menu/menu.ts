@@ -15,7 +15,7 @@ export class Menu {
 
   constructor(){
     effect(() => {
-      document.body.style.overflow = this.menuOpen() ? 'hidden' : '';
+      document.documentElement.style.overflow = this.menuOpen() ? 'hidden' : '';
     });
   }
 
