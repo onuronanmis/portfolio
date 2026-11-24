@@ -72,7 +72,7 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120%;
+  width: 144%;
   pointer-events: none;
 }
 
@@ -80,7 +80,8 @@
   position: relative;
   width: 100%;
   max-width: 600px;
-  transform: translateY(30px);
+  transform: translateY(30px) scale(1.2);
+  transform-origin: bottom center;
 }
 
 .profile-photo {
