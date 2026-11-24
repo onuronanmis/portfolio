@@ -16,6 +16,7 @@
 
 .header-content {
   @include content-container;
+  padding: 0 clamp(24px, calc(29.8vw - 205px), 100px);
   display: flex;
   align-items: center;
   gap: 32px;
@@ -43,11 +44,16 @@
 
 .nav-link {
   font-size: 24px;
+  white-space: nowrap;
   transition: color $transition-default;
 
   &:hover {
     color: $color-primary-green;
   }
+}
+
+.header-language {
+  flex-shrink: 0;
 }
 
 .burger-button {
@@ -69,6 +75,7 @@
   }
 
   .header-content {
+    padding: 0 $content-padding-mobile;
     height: $header-height-mobile;
   }
 
