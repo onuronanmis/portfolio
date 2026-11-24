@@ -28,6 +28,7 @@
 
         <div class="form-field" [class.field-error]="hasError('message')" [class.field-valid]="isValid('message')">
           <textarea formControlName="message" class="form-input form-message" [placeholder]="'contact.messagePlaceholder' | translate"></textarea>
+          <p class="success-toast" [class.toast-visible]="sendSuccess()" role="status">{{ 'contact.success' | translate }}</p>
           <p class="error-text">@if (hasError('message')) { {{ 'contact.messageError' | translate }} }</p>
         </div>
 
@@ -40,11 +41,7 @@
         </label>
         <p class="error-text">@if (hasError('privacy')) { {{ 'contact.privacyError' | translate }} }</p>
 
-        <button type="submit" class="primary-button submit-button" [disabled]="contactForm.invalid">{{ 'contact.button' | translate }}</button>
-        @if (sendSuccess()) {
-          <p class="success-text">{{ 'contact.success' | translate }}</p>
-        }
-      </form>
+        <button type="submit" class="primary-button submit-button" [disabled]="contactForm.invalid">{{ 'contact.button' | translate }}</button>      </form>
     </div>
 
     <button type="button" class="scroll-top" (click)="scrollToTop()" aria-label="Scroll to top">
