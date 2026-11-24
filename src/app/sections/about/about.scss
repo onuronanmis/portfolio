@@ -161,6 +161,10 @@
     width: 100%;
   }
 
+  .photo-shadow {
+    width: min(120%, 504px);
+  }
+
   .photo-frame {
     max-width: 420px;
     transform: translateY(30px);
