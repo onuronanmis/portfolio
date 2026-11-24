@@ -2,9 +2,9 @@
   <img src="icons/bg-lines-shadow/hero-shadow-turquoise.png" class="skills-shadow" alt="">
   <div class="skills-content">
     <div class="skills-grid">
-      @for (skillItem of skillItems; track skillItem.name) {
+      @for (skillItem of skillItems; track skillItem.name; let skillIndex = $index) {
         <div class="skill-item">
-          <img [src]="skillItem.icon" [alt]="skillItem.name" class="skill-icon">
+          <img [src]="skillItem.icon" [alt]="skillItem.name" class="skill-icon" [class]="getHoverAnimation(skillIndex)">
           <span class="skill-name">{{ skillItem.name }}</span>
         </div>
       }

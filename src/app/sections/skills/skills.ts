@@ -11,4 +11,9 @@ import { SKILL_ITEMS } from '../../data/skills';
 })
 export class Skills {
   protected readonly skillItems = SKILL_ITEMS;
+  protected readonly hoverAnimations = ['icon-knock', 'icon-wiggle'];
+
+  protected getHoverAnimation(skillIndex: number) {
+    return this.hoverAnimations[skillIndex % this.hoverAnimations.length];
+  }
 }
