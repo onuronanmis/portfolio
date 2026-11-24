@@ -68,7 +68,16 @@
     text-align: center;
   }
 
+  .footer-wrapper {
+    height: auto;
+    padding: 48px 0;
+  }
+
   .footer-brand {
-    align-items: center;
+    display: contents;
+  }
+
+  .legal-link {
+    order: 1;
   }
 }
