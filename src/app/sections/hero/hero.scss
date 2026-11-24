@@ -1,6 +1,9 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 
+$intro-font-size: clamp(32px, 6.25vw, 90px);
+$title-gap: clamp(8px, 1.7vw, 24px);
+
 .hero-section {
   position: relative;
   min-height: calc(100dvh - #{$header-height});
@@ -36,16 +39,19 @@
 }
 
 .hero-title {
-  display: flex;
-  align-items: center;
-  gap: clamp(8px, 1.7vw, 24px);
+  position: relative;
+  padding-left: calc(1.2 * #{$intro-font-size} + #{$title-gap});
 }
 
 .title-intro {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: clamp(32px, 6.25vw, 90px);
+  font-size: $intro-font-size;
   line-height: 120%;
+  white-space: nowrap;
 }
 
 .hero-name {
