@@ -17,11 +17,13 @@
 
 .shadow-purple {
   left: 0;
+  top: clamp(22%, calc(50% - (1024px - 100vw) * 0.3), 50%);
   width: max(490px, 34vw);
 }
 
 .shadow-turquoise {
   right: 0;
+  top: clamp(50%, calc(50% + (1024px - 100vw) * 0.16), 65%);
   width: max(434px, 30vw);
 }
 
