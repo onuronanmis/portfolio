@@ -53,11 +53,14 @@
   flex-shrink: 0;
   width: 48px;
   height: 48px;
-  transition: transform $transition-default;
+}
 
-  &:hover {
-    transform: scale(1.15);
-  }
+.about-point:nth-child(odd) .point-icon:hover {
+  animation: icon-knock 800ms ease-in-out infinite;
+}
+
+.about-point:nth-child(even) .point-icon:hover {
+  animation: icon-wiggle 800ms ease-in-out infinite;
 }
 
 .about-image {
