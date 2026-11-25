@@ -1,59 +1,54 @@
-# Portfolio
+# Portfolio – Onur Onanmis
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.6.
+Personal portfolio website of Onur Onanmis, Fullstack Developer in training at the Developer Akademie.
 
-## Development server
+**Live:** https://onuronanmis.developerakademie.net/Portfolio/
 
-To start a local development server, run:
+## Features
+
+- Responsive design for desktop, tablet and mobile
+- Multilingual: English, German and Turkish (ngx-translate)
+- Contact form with validation (Reactive Forms)
+- Project showcase with hover and tap overlays
+- Legal notice and privacy policy pages
+
+## Tech Stack
+
+- Angular 22 (standalone components, signals)
+- TypeScript
+- SCSS
+- ngx-translate
+
+## Getting Started
 
 ```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open `http://localhost:4200/` in your browser.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## Build & Deployment
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The production build is configured for the subfolder `/Portfolio/` (`baseHref` in `angular.json`).
+Upload the contents of `dist/portfolio/browser/` (including `.htaccess`) to the server.
 
-## Running unit tests
+## Project Structure
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
+```
+src/app/
+├── core/        header, menu, footer
+├── sections/    hero, about, skills, portfolio, references, contact
+├── pages/       home, imprint, privacy
+├── shared/      reusable components (back, language, scroll, socials) and interfaces
+└── data/        projects, references and skills
 ```
 
-## Running end-to-end tests
+## Contact
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [LinkedIn](https://www.linkedin.com/in/onur-onanmis-1b5563451/)
+- [GitHub](https://github.com/onuronanmis)
