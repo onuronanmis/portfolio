@@ -1,7 +1,7 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 
-$intro-font-size: clamp(32px, 6.25vw, 90px);
+$intro-font-size: clamp(28px, 6.25vw, 90px);
 $title-gap: clamp(8px, 1.7vw, 24px);
 
 .hero-section {
@@ -55,7 +55,7 @@ $title-gap: clamp(8px, 1.7vw, 24px);
 }
 
 .hero-name {
-  font-size: clamp(36px, 8.9vw, 128px);
+  font-size: clamp(30px, 8.9vw, 128px);
   font-weight: 700;
   line-height: 120%;
   white-space: nowrap;
@@ -64,7 +64,7 @@ $title-gap: clamp(8px, 1.7vw, 24px);
 .hero-job {
   width: fit-content;
   white-space: nowrap;
-  font-size: clamp(18px, 4.45vw, 64px);
+  font-size: clamp(16px, 4.45vw, 64px);
   line-height: 120%;
   color: $color-primary-purple;
 }
