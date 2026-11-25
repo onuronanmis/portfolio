@@ -18,12 +18,12 @@ export const PROJECT_ITEMS: Project[] = [
     liveUrl: '#',
   },
   {
-    title: 'Simple CRM',
-    descriptionKey: 'portfolio.projects.simpleCrm',
-    technologies: ['Angular', 'TypeScript', 'Firebase'],
-    image: 'images/portfolio/Simple-CRM-.png',
-    githubUrl: '#',
-    liveUrl: '#',
+    title: '',
+    descriptionKey: '',
+    technologies: [],
+    image: '',
+    githubUrl: '',
+    liveUrl: '',
   },
   {
     title: 'Pokédex',

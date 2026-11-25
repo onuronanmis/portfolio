@@ -9,18 +9,20 @@
     <div class="project-grid">
       @for (projectItem of projectItems; track projectItem.title; let projectIndex = $index) {
         <article class="project-card" [class.project-active]="activeProject() === projectIndex" (click)="toggleProject(projectIndex)">
-          <img [src]="projectItem.image" [alt]="projectItem.title" class="project-image">
+          @if (projectItem.title) {
+            <img [src]="projectItem.image" [alt]="projectItem.title" class="project-image">
 
-          <div class="project-buttons">
-            <a [href]="projectItem.githubUrl" target="_blank" rel="noopener" class="github-button" (click)="$event.stopPropagation()">Github</a>
-            <a [href]="projectItem.liveUrl" target="_blank" rel="noopener" class="live-button" (click)="$event.stopPropagation()">{{ 'portfolio.liveTest' | translate }}</a>
-          </div>
+            <div class="project-buttons">
+              <a [href]="projectItem.githubUrl" target="_blank" rel="noopener" class="github-button" (click)="$event.stopPropagation()">Github</a>
+              <a [href]="projectItem.liveUrl" target="_blank" rel="noopener" class="live-button" (click)="$event.stopPropagation()">{{ 'portfolio.liveTest' | translate }}</a>
+            </div>
 
-          <div class="project-info">
-            <h3 class="project-title">{{ projectItem.title }}</h3>
-            <p class="project-description">{{ projectItem.descriptionKey | translate }}</p>
-            <p class="project-technologies">{{ projectItem.technologies.join(' | ') }}</p>
-          </div>
+            <div class="project-info">
+              <h3 class="project-title">{{ projectItem.title }}</h3>
+              <p class="project-description">{{ projectItem.descriptionKey | translate }}</p>
+              <p class="project-technologies">{{ projectItem.technologies.join(' | ') }}</p>
+            </div>
+          }
         </article>
       }
     </div>
