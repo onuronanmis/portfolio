@@ -2,7 +2,7 @@
 
 Personal portfolio website of Onur Onanmis, Fullstack Developer in training at the Developer Akademie.
 
-**Live:** https://onuronanmis.developerakademie.net/Portfolio/
+**Live:** https://www.onur-onanmis.de
 
 ## Features
 
@@ -34,7 +34,7 @@ Open `http://localhost:4200/` in your browser.
 ng build
 ```
 
-The production build is configured for the subfolder `/Portfolio/` (`baseHref` in `angular.json`).
+The production build is configured for the domain root `/` (`baseHref` in `angular.json`).
 Upload the contents of `dist/portfolio/browser/` (including `.htaccess`) to the server.
 
 ## Project Structure
