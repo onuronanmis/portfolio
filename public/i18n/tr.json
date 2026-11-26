@@ -94,47 +94,47 @@
     }
   },
   "privacyPolicy": {
-    "title": "Privacy Policy",
+    "title": "Gizlilik Politikası",
     "sections": {
       "responsible": {
-        "title": "1. Controller",
-        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar\nEmail: kontakt@onur-onanmis.de"
+        "title": "1. Veri Sorumlusu",
+        "text": "Onur Onanmis\nMozartstraße 8\n23968 Wismar\nE-posta: kontakt@onur-onanmis.de"
       },
       "general": {
-        "title": "2. General",
-        "text": "Protecting your personal data is important to me. Personal data is processed on this website only to the extent technically necessary. The legal basis is the General Data Protection Regulation (GDPR)."
+        "title": "2. Genel Bilgiler",
+        "text": "Kişisel verilerinin korunması benim için önemlidir. Bu web sitesinde kişisel veriler yalnızca teknik açıdan gerekli olduğu ölçüde işlenir. Hukuki dayanak, Avrupa Birliği Genel Veri Koruma Tüzüğü’dür (GDPR/DSGVO)."
       },
       "hosting": {
-        "title": "3. Hosting and server log files",
-        "text": "This website is hosted by Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany. When you visit the site, the server automatically stores information transmitted by your browser: IP address, date and time of access, page visited, browser type and operating system. This data is used to provide the website securely and reliably (Art. 6 (1) (f) GDPR) and is not combined with other data."
+        "title": "3. Barındırma ve Sunucu Günlük Kayıtları",
+        "text": "Bu web sitesi, Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Almanya adresindeki şirket tarafından barındırılmaktadır. Siteyi ziyaret ettiğinde sunucu, tarayıcının ilettiği şu bilgileri otomatik olarak kaydeder: IP adresi, erişim tarihi ve saati, ziyaret edilen sayfa, tarayıcı türü ve işletim sistemi. Bu veriler, web sitesinin güvenli ve istikrarlı bir şekilde sunulmasını sağlar (GDPR Madde 6, fıkra 1, bent f) ve başka verilerle birleştirilmez."
       },
       "contactForm": {
-        "title": "4. Contact form",
-        "text": "If you write to me via the contact form, your name, email address and message are sent to me by email so that I can answer your request (Art. 6 (1) (b) or (f) GDPR). The data is not stored on the website and is not passed on to third parties. I delete your email as soon as your request has been dealt with and no statutory retention obligations apply."
+        "title": "4. İletişim Formu",
+        "text": "İletişim formu üzerinden bana yazdığında adın, e-posta adresin ve mesajın, talebini yanıtlamak amacıyla e-posta yoluyla bana iletilir (GDPR Madde 6, fıkra 1, bent b veya f). Bu veriler web sitesinde saklanmaz ve üçüncü taraflarla paylaşılmaz. Talebin sonuçlandığında ve yasal saklama yükümlülüğü bulunmadığında e-postanı silerim."
       },
       "localStorage": {
-        "title": "5. Local storage (localStorage)",
-        "text": "This website stores the language you have selected in your browser's local storage so that it is kept for your next visit. No personal data is transmitted. This storage is strictly necessary for the requested function (§ 25 (2) TDDDG). You can delete it at any time in your browser settings. No cookies are used."
+        "title": "5. Yerel Depolama (localStorage)",
+        "text": "Bu web sitesi, seçtiğin dili bir sonraki ziyaretinde de korumak için tarayıcının yerel depolama alanına kaydeder. Bu işlem sırasında hiçbir kişisel veri aktarılmaz. Bu kayıt, talep edilen işlevin sağlanması için kesinlikle gereklidir (TDDDG § 25, fıkra 2). Kaydı istediğin zaman tarayıcı ayarlarından silebilirsin. Çerez kullanılmaz."
       },
       "fonts": {
-        "title": "6. Fonts",
-        "text": "The fonts used are hosted locally on the server. No connection is made to servers of Google or other providers."
+        "title": "6. Yazı Tipleri",
+        "text": "Kullanılan yazı tipleri sunucuda yerel olarak barındırılır. Google veya diğer sağlayıcıların sunucularına bağlantı kurulmaz."
       },
       "externalLinks": {
-        "title": "7. External links",
-        "text": "This website contains links to GitHub and LinkedIn. You only leave this website when you click a link. From then on, the privacy policy of the respective provider applies."
+        "title": "7. Harici Bağlantılar",
+        "text": "Bu web sitesi, GitHub ve LinkedIn bağlantıları içerir. Yalnızca bir bağlantıya tıkladığında bu web sitesinden ayrılırsın. O andan itibaren ilgili sağlayıcının gizlilik politikası geçerli olur."
       },
       "encryption": {
-        "title": "8. SSL/TLS encryption",
-        "text": "For security reasons, this site uses SSL/TLS encryption. You can recognise an encrypted connection by \"https://\" in the address bar."
+        "title": "8. SSL/TLS Şifrelemesi",
+        "text": "Bu web sitesi, güvenlik amacıyla SSL/TLS şifrelemesi kullanır. Şifreli bağlantıyı, tarayıcının adres çubuğundaki “https://” ifadesinden anlayabilirsin."
       },
       "rights": {
-        "title": "9. Your rights",
-        "text": "You have the right at any time to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21). Please contact the email address given above.\nYou also have the right to lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of Mecklenburg-Western Pomerania."
+        "title": "9. Hakların",
+        "text": "Her zaman bilgi edinme (GDPR Madde 15), düzeltme (Madde 16), silme (Madde 17), işlemenin kısıtlanmasını isteme (Madde 18), veri taşınabilirliği (Madde 20) ve itiraz etme (Madde 21) haklarına sahipsin. Bu haklarını kullanmak için yukarıda belirtilen e-posta adresinden benimle iletişime geçebilirsin.\nAyrıca bir veri koruma denetim makamına, örneğin Mecklenburg-Vorpommern Eyaleti Veri Koruma ve Bilgi Edinme Özgürlüğü Yetkilisi’ne şikâyette bulunabilirsin."
       },
       "status": {
-        "title": "Last updated",
-        "text": "November 2026"
+        "title": "Son Güncelleme",
+        "text": "Kasım 2026"
       }
     }
   }
