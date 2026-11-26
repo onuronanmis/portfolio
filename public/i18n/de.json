@@ -65,7 +65,8 @@
     "privacyEnd": " gelesen und stimme der Verarbeitung meiner Daten zu.",
     "privacyError": "Bitte akzeptiere die Datenschutzerklärung",
     "button": "Nachricht senden :)",
-    "success": "Danke! Deine Nachricht wurde gesendet."
+    "success": "Danke! Deine Nachricht wurde gesendet.",
+    "error": "Die Nachricht konnte nicht gesendet werden. Bitte versuche es später erneut."
   },
   "footer": {
     "legalNotice": "Impressum",

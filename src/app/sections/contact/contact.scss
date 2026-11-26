@@ -216,6 +216,20 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
+.error-toast {
+  border-color: $color-error-red;
+  box-shadow: 0 4px 24px rgba($color-error-red, 0.3);
+  color: $color-error-red;
+}
+
+.honeypot-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
 .scroll-top {
   position: absolute;
   right: $content-padding-desktop;

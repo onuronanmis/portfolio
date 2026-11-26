@@ -65,7 +65,8 @@
     "privacyEnd": " okudum ve verilerimin belirtildiği şekilde işlenmesini kabul ediyorum.",
     "privacyError": "Lütfen gizlilik politikasını kabul et",
     "button": "Mesaj gönder :)",
-    "success": "Teşekkürler! Mesajın gönderildi."
+    "success": "Teşekkürler! Mesajın gönderildi.",
+    "error": "Mesajın gönderilemedi. Lütfen daha sonra tekrar dene."
   },
   "footer": {
     "legalNotice": "Yasal Bildirim",
