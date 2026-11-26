@@ -7,7 +7,7 @@ export const PROJECT_ITEMS: Project[] = [
     technologies: ['JavaScript', 'HTML', 'CSS'],
     image: 'images/portfolio/Pollo-loco.png',
     githubUrl: 'https://github.com/onuronanmis/El_Pollo_Loco',
-    liveUrl: 'https://onuronanmis.developerakademie.net/El_Pollo_Loco/index.html',
+    liveUrl: 'https://el-pollo-loco.onur-onanmis.de',
   },
   {
     title: 'Join',
@@ -31,6 +31,6 @@ export const PROJECT_ITEMS: Project[] = [
     technologies: ['JavaScript', 'HTML', 'CSS', 'API'],
     image: 'images/portfolio/Pokedex.png',
     githubUrl: 'https://github.com/onuronanmis/Pokedex',
-    liveUrl: 'https://onuronanmis.developerakademie.net/Pokedex/index.html',
+    liveUrl: 'https://pokedex.onur-onanmis.de',
   },
 ];
